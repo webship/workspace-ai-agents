@@ -1,4 +1,4 @@
-# @webship/workspace-ai-agents
+# @webship.co/workspace-ai-agents
 
 The **AI Agents** workspace of the [Webship Workspace](https://github.com/webship/workspace) dashboard:
 the `ai-agents/` folder (type `ai-items`), its settings file (`core/config/workspace.ai-agents.settings.yml`),
