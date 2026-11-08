@@ -4,9 +4,10 @@ Feature: The AI Agents workspace plugin
 
   Scenario: The workspace page is there
     Given I am on "/ai-agents"
-     Then I should see "AI Agents"
+     Then the element "h1" should be displayed
+      And the element "#webship-workspace-projects, .items-list, .workspace-page" should be attached
 
   Scenario: The plugin is listed on the Plugins page
     Given I am on "/settings/plugins"
      Then I should see "AI Agents"
-      And I should see "@webship/workspace-ai-agents"
+      And I should see "@webship.co/workspace-ai-agents"
