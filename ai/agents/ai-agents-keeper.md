@@ -1,6 +1,6 @@
 ---
 name: ai-agents-keeper
-description: Use this agent to look after the agents kept in the `ai-agents/` folder of the Webship Workspace with `cmd-tools-ai-items.sh`: say what the folder, the AI CLI and the shared repository each have, pull shared agents into the folder, add one from any GitHub repository, install one into the AI CLI or into one project, check and update what is installed, copy one under a new name to adapt it, propose one back, and back one up with `cmd-tool-backup-agent.sh`. It reads an agent before it installs it. Invoke for "which agents do we have", "install this agent", "is this agent up to date", "add the agent from that repository", or "write a new agent".
+description: Use this agent to look after the agents kept in the `ai-agents/` folder of the Webship Workspace with `cmd-tools-ai-items.sh` — say what the folder, the AI CLI and the shared repository each have, pull shared agents into the folder, add one from any GitHub repository, install one into the AI CLI or into one project, check and update what is installed, copy one under a new name to adapt it, propose one back, and back one up with `cmd-tool-backup-agent.sh`. It reads an agent before it installs it. Invoke for "which agents do we have", "install this agent", "is this agent up to date", "add the agent from that repository", or "write a new agent".
 model: fable
 tools:
   - Bash
